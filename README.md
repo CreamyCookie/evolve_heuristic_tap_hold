@@ -1,5 +1,5 @@
 # Evolving heuristic tap hold functions
-This code uses the [jenetics library](https://github.com/jenetics/jenetics) to find three functions that can be used in a [heuristic tap hold](https://github.com/CreamyCookie/qmk_userspace/keyboards/ducktopus/keymaps/vial/features/) setup.
+This code uses the [jenetics library](https://github.com/jenetics/jenetics) to find three functions that can be used in a [heuristic tap hold](https://github.com/CreamyCookie/qmk_userspace/tree/main/keyboards/ducktopus/keymaps/vial/features) setup.
 
 * One tries to predict the duration overlap above which a key combination is considered a hold instead of a tap. Example: <kbd>LCTL_T(KC_A)</kbd> down, <kbd>KC_V</kbd> down
 * One guesses if a wrapped is hold or tap. Example: <kbd>LCTL_T(KC_A)</kbd> down, <kbd>KC_V</kbd> down, <kbd>KC_V</kbd> up
