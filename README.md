@@ -9,6 +9,8 @@ They do so by using data points that are available at the time of the respective
 
 This program uses the training data created via the [analyze_convert_keystroke_data](https://github.com/CreamyCookie/analyze_convert_keystroke_data) script.
 
+The functions that were found so far are in [evolve_tap_hold_functions.kt](https://github.com/CreamyCookie/evolve_heuristic_tap_hold/blob/main/src/main/kotlin/evolve_tap_hold_functions.kt) in the `initialPopulation` variable.
+
 # How to use
 Download [training_data.csv.gz](https://github.com/CreamyCookie/analyze_convert_keystroke_data/tree/main/dataset).
 
